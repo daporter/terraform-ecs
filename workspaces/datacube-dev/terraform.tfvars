@@ -2,7 +2,7 @@ vpc_cidr = "10.0.0.0/16"
 
 cluster = "datacube-dev"
 
-state_bucket = "ga-aws-dea-dev-tfstate"
+state_bucket = "data61-aws-dea-dev-tfstate"
 
 workspace = "datacube-dev"
 
@@ -24,7 +24,7 @@ min_container_num = 4
 
 desired_capacity = 4
 
-instance_type = "r4.4xlarge"
+instance_type = "t2.medium"
 
 owner = "deacepticons"
 
@@ -34,7 +34,7 @@ key_name = "datacube-dev"
 
 db_multi_az = false
 
-dns_zone = "wms.gadevs.ga"
+dns_zone = "data-cube.d61.io"
 
 ssl_cert_region = "ap-southeast-2"
 

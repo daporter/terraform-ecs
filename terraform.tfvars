@@ -26,4 +26,8 @@ owner = "YOUR EMAIL HERE"
 
 enable_jumpbox = false
 
-key_name = "AWS KEYNAME HERE"
+key_name = "datacube-dev"
+
+db_admin_username = "datacube"
+db_admin_password = "azb4cgtYcR7n"
+ssh_ip_address = "152.83.164.242/32"

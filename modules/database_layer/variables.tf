@@ -40,7 +40,7 @@ variable "engine_version" {
 }
 
 variable "instance_class" {
-  default     = "db.m4.xlarge"
+  default     = "db.t2.micro"
   description = "aws instance"
 }
 

@@ -4,7 +4,8 @@ terraform {
   backend "s3" {
     # This is an s3bucket you will need to create in your aws
     # space
-    bucket = "ga-aws-dea-dev-tfstate"
+    bucket = "data61-aws-dea-dev-tfstate"
+
 
     # The key should be unique to each stack, because we want to
     # have multiple enviornments alongside each other we set
