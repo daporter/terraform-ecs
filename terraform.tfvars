@@ -24,10 +24,10 @@ ecs_aws_ami = "ami-c1a6bda2"
 
 owner = "YOUR EMAIL HERE"
 
-enable_jumpbox = false
+enable_jumpbox = true
 
 key_name = "datacube-dev"
 
 db_admin_username = "datacube"
 db_admin_password = "azb4cgtYcR7n"
-ssh_ip_address = "152.83.164.242/32"
+ssh_ip_address = "152.83.117.1/32"
